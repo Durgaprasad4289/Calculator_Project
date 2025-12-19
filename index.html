@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calsi.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" readonly class="display" id="result">
+        <div class="btn">
+            <button onclick="addtodisplay('+')" id="opr">+</button>
+            <button onclick="addtodisplay('7')" >7</button>
+            <button onclick="addtodisplay('8')">8</button>
+            <button onclick="addtodisplay('9')">9</button>
+            <button onclick="addtodisplay('-')" id="opr">-</button>
+            <button onclick="addtodisplay('4')">4</button>
+            <button onclick="addtodisplay('5')">5</button>
+            <button onclick="addtodisplay('6')">6</button>
+            <button onclick="addtodisplay('*')" id="opr">*</button>
+            <button onclick="addtodisplay('1')">1</button>
+            <button onclick="addtodisplay('2')">2</button>
+            <button onclick="addtodisplay('3')">3</button>
+            <button onclick="addtodisplay('/')" id="opr">/</button>
+            <button onclick="addtodisplay('0')">0</button>
+            <button onclick="addtodisplay('.')">.</button>
+            <button onclick="cal()" id="equalsto">=</button>
+            <button onclick="clear1()" id="opr">c</button>
+            </div>
+    </div>
+    <script >
+        window.alert("Calculator loaded successfully");
+        var display =document.getElementById('result');
+        function addtodisplay(value){
+            display.value += value;
+        }
+        function clear1(){
+            display.value = '';
+        }
+        function cal(){
+            try{
+                let r= eval(display.value);
+                display.value = Math.round((r + Number.EPSILON) * 100) / 100;
+            }catch(error){
+                display.value = 'Error';
+            }
+        }
+        function getRandom(min, max) {
+          return Math.random() * (max - min) + min,Math.floor(Math.random() * (max - min) + min); 
+        }
+        
+        console.log(getRandom(10, 20)); // example: 13.45
+    </script>
+</body>
+</html>
