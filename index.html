@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="upper-part">
+            <input type="text" id="display" readonly>
+        </div>
+        <div class="lower-part">
+            <input type="checkbox" id="check">
+            <div class="part-1">
+                <button onclick="add2display('sin(')" class="super-keys sin">sin</button>
+                <button onclick="add2display('cos(')" class="super-keys cos">cos</button>
+                <button onclick="add2display('tan(')" class="super-keys">tan</button>
+                <button onclick="add2display('log(')" class="super-keys">log</button>
+                <button onclick="add2display('(')" class="super-keys">(</button>
+                <button onclick="add2display(')')" class="super-keys">)</button>
+                <button onclick="add2display('**')" class="super-keys">xʸ</button>
+                <button onclick="add2display('3.14159265358')" class="super-keys">π</button>
+                <button onclick="add2display('√')" class="super-keys sqrt">√</button>
+                <button onclick="Change_sign()" class="super-keys">+/-</button>
+            </div>
+            <div class="part-2">
+                <button onclick="clear_screen()" class="symbol">AC</button>
+                <button onclick="clear_last_element()" class="symbol">B</button>
+                <button onclick="add2display('%')" class="symbol">%</button>
+                <button onclick="add2display('/')" class="symbol">/</button>
+                <button onclick="add2display('7')">7</button>
+                <button onclick="add2display('8')" >8</button>
+                <button onclick="add2display('9')" >9</button>
+                <button onclick="add2display('*')"  class="symbol">*</button>
+                <button onclick="add2display('4')" >4</button>
+                <button onclick="add2display('5')" >5</button>
+                <button onclick="add2display('6')" >6</button>
+                <button onclick="add2display('-')"  class="symbol">-</button>
+                <button onclick="add2display('1')" >1</button>
+                <button onclick="add2display('2')" >2</button>
+                <button onclick="add2display('3')" >3</button>
+                <button onclick="add2display('+')" class="symbol">+</button>
+                <label for="check">S</label>
+                <button onclick="add2display('0')">0</button>
+                <button onclick="add2display('.')" class="symbol">.</button>
+                <button onclick="answer()" class="always">=</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+<script src="script.js"></script>
