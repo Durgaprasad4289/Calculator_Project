@@ -43,4 +43,4 @@ Calculator/
 
 ----
 ## 🖼️ Preview
-<img width="758" height="703" alt="Image" src="https://github.com/user-attachments/assets/90295690-4475-471c-bee0-11eb0f6a3c4e" />
+<img width="375" height="350" alt="Image" src="https://github.com/user-attachments/assets/90295690-4475-471c-bee0-11eb0f6a3c4e" />
