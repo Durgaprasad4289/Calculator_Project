@@ -30,9 +30,13 @@ This project demonstrates **core JavaScript logic, event handling, and DOM manip
 - **JavaScript (ES6)** – Calculation logic & events  
 
 ----
+## 🖼️ Preview
+<img width="375" height="350" alt="Image" src="https://github.com/user-attachments/assets/90295690-4475-471c-bee0-11eb0f6a3c4e" />
 
+---
 ## 📁 Project Structure
 
+```text
 Calculator/
 │
 ├── index.html
@@ -40,7 +44,4 @@ Calculator/
 ├── script.js
 └── assets/
 └── calculator-preview.png
-
-----
-## 🖼️ Preview
-<img width="375" height="350" alt="Image" src="https://github.com/user-attachments/assets/90295690-4475-471c-bee0-11eb0f6a3c4e" />
+```
