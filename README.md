@@ -6,7 +6,7 @@ This project demonstrates **core JavaScript logic, event handling, and DOM manip
 ----
 
 ## 🌐 Live Demo
-👉 **[Click here to view live demo](https://durgaprasad4289.github.io/Calculator_Project/)**
+👉 **[Click here to view live demo](https://durgaprasadcodes.github.io/Calculator_Project/)**
 
 ----
 
